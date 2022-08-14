@@ -33,6 +33,6 @@ dependencyResolutionManagement {
 
     versionCatalogs {
         create("libs").from("com.mineinabyss:catalog:$idofrontVersion")
-        create("tempLibs").from(files("gradle/tempLibs.versions.toml"))
+        create("pluginLibs").from(files("gradle/pluginLibs.versions.toml"))
     }
 }
