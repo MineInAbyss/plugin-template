@@ -22,7 +22,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "mobzy"
+rootProject.name = "plugin-template"
 
 dependencyResolutionManagement {
     val idofrontVersion: String by settings
@@ -33,6 +33,6 @@ dependencyResolutionManagement {
 
     versionCatalogs {
         create("libs").from("com.mineinabyss:catalog:$idofrontVersion")
-        create("mylibs").from(files("gradle/mylibs.versions.toml"))
+        create("pluginLibs").from(files("gradle/pluginLibs.versions.toml"))
     }
 }

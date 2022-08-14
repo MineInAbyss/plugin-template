@@ -19,8 +19,8 @@ dependencies {
     compileOnly(libs.koin.core)
 
     // Other plugins
-    compileOnly(mylibs.geary.papermc.core)
-    compileOnly(mylibs.guiy)
+    compileOnly(pluginLibs.geary.papermc.core)
+    compileOnly(pluginLibs.guiy)
 
     // Shaded
     implementation(libs.idofront.core)
